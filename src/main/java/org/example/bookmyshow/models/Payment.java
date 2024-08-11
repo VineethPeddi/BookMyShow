@@ -10,10 +10,10 @@ import java.util.Date;
 @Setter
 @Entity
 public class Payment extends BaseModel{
-    String refNo;
-    PaymentProvider paymentProvider;
-    int amount;
-    Date txnDate;
-    PaymentMode paymentMode;
-    PaymentStatus paymentStatus;
+    private String refNo;
+    private PaymentProvider paymentProvider;
+    private int amount;
+    private Date txnDate;
+    private PaymentMode paymentMode;
+    private PaymentStatus paymentStatus;
 }
